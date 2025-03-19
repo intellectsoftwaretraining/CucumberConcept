@@ -1,7 +1,7 @@
 Feature: Create mutiple users in registration page
   I want to use this template for my feature file
 
-@datadriven
+@datadriven @TC001
   Scenario Outline: create new user
     Given I want to write a step with "<name>"
     When I check for the <value> in step

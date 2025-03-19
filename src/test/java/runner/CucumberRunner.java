@@ -7,12 +7,12 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "./src/test/resources/Features/DataDriven.feature"
+		features = "./src/test/resources/Features"
 		,glue={"steps"}
 		,plugin = {"pretty","summary","html:target/cucumber/report.html"}
 		,monochrome = true
 		,dryRun = false
-		, tags = "@datadriven"
+		, tags = "@TC001 or @TC002 "
 		)
 public class CucumberRunner {
 
