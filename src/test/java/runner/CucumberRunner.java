@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		,plugin = {"pretty","summary","html:target/cucumber/report.html"}
 		,monochrome = true
 		,dryRun = false
-		, tags = "@login"
+		, tags = "@TC002 or @TC001"
 		)
 public class CucumberRunner {
 
